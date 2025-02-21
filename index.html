@@ -1,20 +1,1257 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App</title>
+    <title>7 днів до нового себе</title>
     <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
-    <header class="header"><div class="container"></div></header>
     <main>
-      <section></section>
+      <section class="hero">
+        <div class="container">
+          <p class="short-info">
+            Експрес-курс з персональною діагностичною сесією
+          </p>
+          <h1 class="title">7 днів до нового себе</h1>
+          <p class="subtitle">
+            поверни <span>контроль над своїм життям!</span>
+          </p>
+          <p class="text">
+            Проста та дієва система, як за 1 тиждень
+            <span>перестати прокрастинувати та знову полюбити життя,</span>
+            завдяки 7 простим крокам по 15 хвилин на день
+          </p>
+          <ul class="list">
+            <li class="list-item">
+              <p class="item-text">Маленькі дії з великим результатом</p>
+            </li>
+            <li class="list-item">
+              <p class="item-text">
+                Повернешь радість, енергію та натхнення для життя
+              </p>
+            </li>
+            <li class="list-item">
+              <p class="item-text">Не потребує додаткових ресурсів чи витрат</p>
+            </li>
+            <li class="list-item">
+              <p class="item-text">
+                7 років досвіду, зібрані у практичну систему з 7 уроків
+              </p>
+            </li>
+          </ul>
+          <a class="btn" href="">Приєднатись зі Знижкою -90%</a>
+        </div>
+      </section>
+      <section class="bonus">
+        <div class="container">
+          <img
+            class="ellipse bonus-ellipse"
+            src="./src/img/bg/ellipse-purple.png"
+            alt="decor"
+          />
+          <h2 class="title">
+            Встигни приєднатись за кращою ціною та отримати бонуси
+          </h2>
+          <ul class="list">
+            <li class="list-item">
+              <img
+                src="./src/img/bonus/gift.svg"
+                alt="gift image"
+                width="36"
+                height="36"
+              />
+              <p class="item-text">
+                <span>Відеоурок</span> Топ 7 порад як почати день так, щоб ніхто
+                не міг його зіпсувати
+              </p>
+            </li>
+            <li class="list-item">
+              <img
+                src="./src/img/bonus/gift.svg"
+                alt="gift image"
+                width="36"
+                height="36"
+              />
+              <p class="item-text">
+                <span>Відеоурок</span> Потужна технологія, як легко знайти 1000+
+                годин на рік, не зміючі нічого в своєму розпорядку дня
+              </p>
+            </li>
+            <li class="list-item">
+              <img
+                src="./src/img/bonus/gift.svg"
+                alt="gift image"
+                width="36"
+                height="36"
+              />
+              <p class="item-text">
+                <span>Можливість</span> потрапити на персональну діагностичну
+                сесію з автором курсу
+              </p>
+            </li>
+          </ul>
+          <div class="timer-container">
+            <p class="timer-title">[ до закінчення акції ]</p>
+            <div id="countdown-one" class="countdown">
+              <div class="countdown-number">
+                <span class="hours countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot">:</span></div>
+              <div class="countdown-number">
+                <span class="minutes countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot">:</span></div>
+              <div class="countdown-number">
+                <span class="seconds countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot">:</span></div>
+              <div class="countdown-number">
+                <span class="milliseconds countdown-time"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="for-you">
+        <div class="container">
+          <img
+            class="ellipse for-ellipse-1"
+            src="./src/img/bg/ellipse-purple.png"
+            alt="decor"
+          />
+          <img
+            class="ellipse for-ellipse-2"
+            src="./src/img/bg/ellipse-purple.png"
+            alt="decor"
+          />
+          <h2 class="title">Цей курс для тебе, якщо:</h2>
+          <ul class="list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-you/item-01-1x.png 1x,
+                    ./src/img/for-you/item-01-2x.png 2x
+                  "
+                  width="85"
+                  height="85" />
+                <img
+                  class="item-image"
+                  src="./src/img/for-you/item-01-1x.png"
+                  alt="face"
+                  width="85"
+                  height="85"
+              /></picture>
+              <p class="item-text">Відчуваєш, що життя стає неконтрольованим</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-you/item-02-1x.png 1x,
+                    ./src/img/for-you/item-02-2x.png 2x
+                  "
+                  width="85"
+                  height="85" />
+                <img
+                  class="item-image"
+                  src="./src/img/for-you/item-02-1x.png"
+                  alt="face"
+                  width="85"
+                  height="85"
+              /></picture>
+              <p class="item-text">Втратився смак до життя</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-you/item-03-1x.png 1x,
+                    ./src/img/for-you/item-03-2x.png 2x
+                  "
+                  width="85"
+                  height="85" />
+                <img
+                  class="item-image"
+                  src="./src/img/for-you/item-03-1x.png"
+                  alt="face"
+                  width="85"
+                  height="85"
+              /></picture>
+              <p class="item-text">Кожен день сповнений стрессом</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-you/item-04-1x.png 1x,
+                    ./src/img/for-you/item-04-2x.png 2x
+                  "
+                  width="85"
+                  height="85" />
+                <img
+                  class="item-image"
+                  src="./src/img/for-you/item-04-1x.png"
+                  alt="face"
+                  width="85"
+                  height="85"
+              /></picture>
+              <p class="item-text">Немає енергії та вільного часу</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-you/item-05-1x.png 1x,
+                    ./src/img/for-you/item-05-2x.png 2x
+                  "
+                  width="85"
+                  height="85" />
+                <img
+                  class="item-image"
+                  src="./src/img/for-you/item-05-1x.png"
+                  alt="face"
+                  width="85"
+                  height="85"
+              /></picture>
+              <p class="item-text">Частіше хочется плакати, аніж посміхатись</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-you/item-06-1x.png 1x,
+                    ./src/img/for-you/item-06-2x.png 2x
+                  "
+                  width="85"
+                  height="85" />
+                <img
+                  class="item-image"
+                  src="./src/img/for-you/item-06-1x.png"
+                  alt="face"
+                  width="85"
+                  height="85"
+              /></picture>
+              <p class="item-text">
+                Відчуваєш неначе Дементор висмоктує радість
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-you/item-07-1x.png 1x,
+                    ./src/img/for-you/item-07-2x.png 2x
+                  "
+                  width="85"
+                  height="85" />
+                <img
+                  class="item-image"
+                  src="./src/img/for-you/item-07-1x.png"
+                  alt="face"
+                  width="85"
+                  height="85"
+              /></picture>
+              <p class="item-text">Хочеш змін, але не маєш вільного часу</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about-author">
+        <div class="container">
+          <img
+            class="ellipse about-ellipse-1"
+            src="./src/img/bg/ellipse-purple.png"
+            alt="decor"
+          />
+          <h2 class="title">АВТОР КУРСУ</h2>
+          <picture
+            ><source
+              srcset="
+                ./src/img/about-author/author-1x.png 1x,
+                ./src/img/about-author/author-2x.png 2x
+              "
+              width="320"
+              height="auto" />
+            <img
+              class="author-image"
+              src="./src/img/about-author/author-1x.png"
+              alt="author"
+              width="320"
+              height="auto"
+          /></picture>
+          <h3 class="name">НІКІТА СЛІПЧЕНКО</h3>
+          <p class="desc">
+            Підприємець, інвестор, практик свідомого життя та біохакер
+          </p>
+          <p class="text">
+            Моє перше прозріння відбулося в 22 роки. І хоча вже тоді я мав
+            чималий досвід в бізнесі, стосунках та спорті, раптово  усвідомив
+            себе з боргом в 30 тис. дол., кризі у відносинах та наднизьким
+            рівнем енергії.
+            <span id="more-text" class="hidden">
+              Життя просто траплялось зі мною й мене це перестало влаштовувати
+              (власне, як і Вас, якщо Ви вже тут). З того моменту я почав
+              випробувати на собі усі можливі інструменти для набуття контролю
+              над моїм життям. Це точно не було системно проте еффективно.
+              <br /><br />
+              Рівно за рік я не просто закрив борги, але вдвічі розширив свої
+              бізнеси, поміняв автівку, переїхав в нову квартиру, почав
+              подорожувати з дружиною кожні 2 місяці. Ще через пів року чистий
+              прибуток вже був 20 + тис дол. в міс., я піднявся на Арарат, почав
+              писати музику, колекціонувати віскі й придбав новий Х5. Що не день
+              - то казка. І це все в 24 роки. <br /><br />
+              Локомотив енергії був такий сильний, що на другий тиждень війни я
+              відновив діяльність усіх проектів, переїхав у топову квартиру в
+              найдорожчому комплексі Києва, при цьому значний % наша компанія
+              відправляла на ЗСУ, а я почував себе щасливим. Трохи згодом,
+              успішно продав свої проекти за 200 + тис. дол, але… <br /><br />
+              В грудні 2022 року почалася криза, що тривала майже 2 роки. Мій
+              капітал почав танути, зʼявились залежності, тривожність, відчуття
+              безконтрольності, апатії , пропав смак до життя. <br />
+              <br />
+              Знайомо? <br />
+              <br />
+              А тепер до реально важливого факту. Мені знадобилося МЕНШЕ МІСЯЦЯ
+              аби круто змінити ( попередньо свідомо обравши) сценарій свого
+              життя. Я взяв відповідальність за нього, що запрошую зробити і
+              тебе! <br />
+              Хорошо новина полягає в тому, що аби відчути зміни в УСІХ аспектах
+              свого життя - тобі буде достатньо 7 днів. Погана - не зміниться
+              нічого, якщо не почати прямо зараз. <br />
+              Не барись - ти заслуговуєш жити щасливо!
+            </span>
+          </p>
+          <button id="read-more-btn" class="read-more-btn">
+            Читати далі...
+          </button>
+          <a class="btn" href="">Приєднатись зі Знижкою -90%</a>
+        </div>
+      </section>
+      <section class="you-get">
+        <div class="container">
+          <img
+            class="ellipse about-ellipse-1"
+            src="./src/img/bg/ellipse-purple.png"
+            alt="decor"
+          />
+          <h2 class="title">Що ви отримаєте:</h2>
+          <ul class="list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/you-get/item-01-1x.png 1x,
+                    ./src/img/you-get/item-01-2x.png 2x
+                  "
+                  width="45"
+                  height="45" />
+                <img
+                  class="item-image"
+                  src="./src/img/you-get/item-01-1x.png"
+                  alt="emoji"
+                  width="45"
+                  height="45"
+              /></picture>
+              <p class="item-text">
+                <span>7 структурованих уроків</span> по 15 хвилин + 2 бонусних
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/you-get/item-02-1x.png 1x,
+                    ./src/img/you-get/item-02-2x.png 2x
+                  "
+                  width="45"
+                  height="45" />
+                <img
+                  class="item-image"
+                  src="./src/img/you-get/item-02-1x.png"
+                  alt="emoji"
+                  width="45"
+                  height="45"
+              /></picture>
+              <p class="item-text">
+                <span>Практичні завдання:</span> легка та приємна робота з
+                тілом, мозком та свідомістю
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/you-get/item-03-1x.png 1x,
+                    ./src/img/you-get/item-03-2x.png 2x
+                  "
+                  width="45"
+                  height="45" />
+                <img
+                  class="item-image"
+                  src="./src/img/you-get/item-03-1x.png"
+                  alt="emoji"
+                  width="45"
+                  height="45"
+              /></picture>
+              <p class="item-text">
+                <span>Дієві рекомендації</span> практик від експертів по кожному
+                кроку апгрейду свого життя
+              </p>
+            </li>
+          </ul>
+          <a class="btn" href="">Приєднатись зі Знижкою -90%</a>
+        </div>
+      </section>
+      <section class="program">
+        <div class="container">
+          <img
+            class="ellipse program-ellipse-1"
+            src="./src/img/bg/ellipse-gray.png"
+            alt="decor"
+          />
+          <img
+            class="ellipse program-ellipse-2"
+            src="./src/img/bg/ellipse-gray.png"
+            alt="decor"
+          />
+          <img
+            class="ellipse program-ellipse-3"
+            src="./src/img/bg/ellipse-gray.png"
+            alt="decor"
+          />
+          <h2 class="title">програма курсу</h2>
+          <div class="program-container">
+            <ul class="program-list list">
+              <li class="program-list-item">
+                <div class="program-item-title-container">
+                  <div class="program-list-item-container">
+                    <span class="item-lesson">День 0</span>
+                    <h3 class="program-list-item-title">
+                      Вступ: Як пройти курс до кінця
+                    </h3>
+                  </div>
+                </div>
+                <div class="program-answer-wrapper">
+                  <div class="program-answer-item-wrapper">
+                    <ol class="modules-list">
+                      <li class="list-item">
+                        Формат проходження: як отримати максимум від курсу
+                      </li>
+                      <li class="list-item">
+                        Знаходимо час для практик, а отже - для себе
+                      </li>
+                      <li class="list-item">
+                        Як одна дія кардинально змінить траєкторію вашого життя
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="open-text-container">
+                  <p class="open-text">Відкрити опис</p>
+                </div>
+              </li>
+              <li class="program-list-item">
+                <div class="program-item-title-container">
+                  <div class="program-list-item-container">
+                    <span class="item-lesson">День 1</span>
+                    <h3 class="program-list-item-title">
+                      Усвідомлення та постановка мети
+                    </h3>
+                  </div>
+                </div>
+                <div class="program-answer-wrapper">
+                  <div class="program-answer-item-wrapper">
+                    <ol class="modules-list">
+                      <li class="list-item">
+                        Навіщо я тут? Як визначити свої справжні потреби
+                      </li>
+                      <li class="list-item">
+                        Як обрати власну ціль і чому вона реалізується сама
+                      </li>
+                      <li class="list-item">
+                        Усвідомлення: перший крок до великих змін
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="open-text-container">
+                  <p class="open-text">Відкрити опис</p>
+                </div>
+              </li>
+              <li class="program-list-item">
+                <div class="program-item-title-container">
+                  <div class="program-list-item-container">
+                    <span class="item-lesson">День 2</span>
+                    <h3 class="program-list-item-title">
+                      Енергія зранку – ключ до успішного дня
+                    </h3>
+                  </div>
+                </div>
+                <div class="program-answer-wrapper">
+                  <div class="program-answer-item-wrapper">
+                    <ol class="modules-list">
+                      <li class="list-item">
+                        Ранкові ритуали, заради яких хочеться прокидатись
+                      </li>
+                      <li class="list-item">
+                        Як через мозок подружитись зі своїм тілом. І навпаки
+                      </li>
+                      <li class="list-item">Як перемогти ще до початку бою</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="open-text-container">
+                  <p class="open-text">Відкрити опис</p>
+                </div>
+              </li>
+              <li class="program-list-item">
+                <div class="program-item-title-container">
+                  <div class="program-list-item-container">
+                    <span class="item-lesson">День 3</span>
+                    <h3 class="program-list-item-title">
+                      Спокійний розум – свідомі рішення
+                    </h3>
+                  </div>
+                </div>
+                <div class="program-answer-wrapper">
+                  <div class="program-answer-item-wrapper">
+                    <ol class="modules-list">
+                      <li class="list-item">
+                        Як перетворити мозок на союзника, а не ворога..
+                      </li>
+                      <li class="list-item">
+                        Як змінити реальність через її усвідомлення
+                      </li>
+                      <li class="list-item">Як перемогти ще до початку бою</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="open-text-container">
+                  <p class="open-text">Відкрити опис</p>
+                </div>
+              </li>
+              <li class="program-list-item">
+                <div class="program-item-title-container">
+                  <div class="program-list-item-container">
+                    <span class="item-lesson">День 4</span>
+                    <h3 class="program-list-item-title">
+                      Контроль дофаміну та фокус
+                    </h3>
+                  </div>
+                </div>
+                <div class="program-answer-wrapper">
+                  <div class="program-answer-item-wrapper">
+                    <ol class="modules-list">
+                      <li class="list-item">
+                        Як позбутися залежності від «швидкого дофаміну» за один
+                        день
+                      </li>
+                      <li class="list-item">Працюй не багато, а эффективно</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="open-text-container">
+                  <p class="open-text">Відкрити опис</p>
+                </div>
+              </li>
+              <li class="program-list-item">
+                <div class="program-item-title-container">
+                  <div class="program-list-item-container">
+                    <span class="item-lesson">День 5</span>
+                    <h3 class="program-list-item-title">
+                      Вибір та задання своєї нової реальності
+                    </h3>
+                  </div>
+                </div>
+                <div class="program-answer-wrapper">
+                  <div class="program-answer-item-wrapper">
+                    <ol class="modules-list">
+                      <li class="list-item">
+                        Візьми сміливість обирати, а не страждати
+                      </li>
+                      <li class="list-item">По вірі вашій дано вам буде</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="open-text-container">
+                  <p class="open-text">Відкрити опис</p>
+                </div>
+              </li>
+              <li class="program-list-item">
+                <div class="program-item-title-container">
+                  <div class="program-list-item-container">
+                    <span class="item-lesson">День 6</span>
+                    <h3 class="program-list-item-title">
+                      Корисні звички нового Тебе
+                    </h3>
+                  </div>
+                </div>
+                <div class="program-answer-wrapper">
+                  <div class="program-answer-item-wrapper">
+                    <ol class="modules-list">
+                      <li class="list-item">
+                        Як створити позитивні тригери для задання своєї нової
+                        реальності
+                      </li>
+                      <li class="list-item">
+                        Як легко позбутись старих звичок через усвідомлення
+                      </li>
+                      <li class="list-item">
+                        Як зробити нові звички гарними друзями на все життя
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="open-text-container">
+                  <p class="open-text">Відкрити опис</p>
+                </div>
+              </li>
+              <li class="program-list-item">
+                <div class="program-item-title-container">
+                  <div class="program-list-item-container">
+                    <span class="item-lesson">День 7</span>
+                    <h3 class="program-list-item-title">
+                      Усвідомлення нової реальності
+                    </h3>
+                  </div>
+                </div>
+                <div class="program-answer-wrapper">
+                  <div class="program-answer-item-wrapper">
+                    <ol class="modules-list">
+                      <li class="list-item">
+                        Закріплення досягнутого та усвідомлення сили й змін
+                      </li>
+                      <li class="list-item">Вдячність</li>
+                      <li class="list-item">Що робити далі?</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="open-text-container">
+                  <p class="open-text">Відкрити опис</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="price-container">
+            <p class="price">369грн &nbsp;&nbsp;<span>3690грн</span></p>
+            <div class="line-through"></div>
+          </div>
+          <a class="btn" href="">Приєднатись зі Знижкою -90%</a>
+        </div>
+      </section>
+      <section class="bonus">
+        <div class="container">
+          <h2 class="title">
+            Встигни приєднатись за кращою ціною та отримати бонуси
+          </h2>
+          <ul class="list">
+            <li class="list-item">
+              <img
+                src="./src/img/bonus/gift.svg"
+                alt="gift image"
+                width="36"
+                height="36"
+              />
+              <p class="item-text">
+                <span>Відеоурок</span> Топ 7 порад як почати день так, щоб ніхто
+                не міг його зіпсувати
+              </p>
+            </li>
+            <li class="list-item">
+              <img
+                src="./src/img/bonus/gift.svg"
+                alt="gift image"
+                width="36"
+                height="36"
+              />
+              <p class="item-text">
+                <span>Відеоурок</span> Потужна технологія, як легко знайти 1000+
+                годин на рік, не зміючі нічого в своєму розпорядку дня
+              </p>
+            </li>
+            <li class="list-item">
+              <img
+                src="./src/img/bonus/gift.svg"
+                alt="gift image"
+                width="36"
+                height="36"
+              />
+              <p class="item-text">
+                <span>Можливість</span> потрапити на персональну діагностичну
+                сесію з автором курсу
+              </p>
+            </li>
+          </ul>
+          <div class="timer-container">
+            <p class="timer-title">[ до закінчення акції ]</p>
+            <div id="countdown-one" class="countdown">
+              <div class="countdown-number">
+                <span class="hours countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot">:</span></div>
+              <div class="countdown-number">
+                <span class="minutes countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot">:</span></div>
+              <div class="countdown-number">
+                <span class="seconds countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot">:</span></div>
+              <div class="countdown-number">
+                <span class="milliseconds countdown-time"></span>
+              </div>
+            </div>
+          </div>
+          <p class="garant-text">
+            На курс діє гарантія безумовного повернення коштів протягом 14 днів
+          </p>
+        </div>
+      </section>
+      <section class="how-study">
+        <div class="container">
+          <img
+            class="ellipse how-ellipse-1"
+            src="./src/img/bg/ellipse-purple.png"
+            alt="decor"
+          />
+          <h2 class="title">Як відбувається навчання?</h2>
+          <picture
+            ><source
+              srcset="
+                ./src/img/how-study/face-1x.png 1x,
+                ./src/img/how-study/face-2x.png 2x
+              "
+              width="72"
+              height="78" />
+            <img
+              class="face-image"
+              src="./src/img/how-study/face-1x.png"
+              alt="memoji"
+              width="72"
+              height="78"
+          /></picture>
+          <ul class="list">
+            <li class="list-item">
+              <div class="item-box">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/how-study/num-01-1x.png 1x,
+                      ./src/img/how-study/num-01-2x.png 2x
+                    "
+                    width="25"
+                    height="25" />
+                  <img
+                    class="item-number"
+                    src="./src/img/how-study/num-01-1x.png"
+                    alt="number"
+                    width="25"
+                    height="25"
+                /></picture>
+                <p class="item-text">
+                  Відразу після оплати на електронну пошту вказану при оплаті
+                  надійде підтвердження та інструкції для доступу до курсу з
+                  логіном та паролем для входу на навчальну платформу
+                </p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="item-box">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/how-study/num-02-1x.png 1x,
+                      ./src/img/how-study/num-02-2x.png 2x
+                    "
+                    width="25"
+                    height="25" />
+                  <img
+                    class="item-number"
+                    src="./src/img/how-study/num-02-1x.png"
+                    alt="number"
+                    width="25"
+                    height="25"
+                /></picture>
+                <p class="item-text">
+                  Уроки включають 7 відеолекцій по 15 хвилин, практичні завдання
+                  для закріплення матеріалу і бонусні матеріали (чеклісти,
+                  рекомендації практик )
+                </p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="item-box">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/how-study/num-03-1x.png 1x,
+                      ./src/img/how-study/num-03-2x.png 2x
+                    "
+                    width="25"
+                    height="25" />
+                  <img
+                    class="item-number"
+                    src="./src/img/how-study/num-03-1x.png"
+                    alt="number"
+                    width="25"
+                    height="25"
+                /></picture>
+                <p class="item-text">
+                  Для досягнення максимального результату, рекомендовано
+                  подивитись ДЕНЬ 0 відразу після отримання доступу
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="result">
+        <div class="container">
+          <img
+            class="ellipse result-ellipse-1"
+            src="./src/img/bg/ellipse-purple.png"
+            alt="decor"
+          />
+          <img
+            class="ellipse result-ellipse-2"
+            src="./src/img/bg/ellipse-purple.png"
+            alt="decor"
+          />
+          <h2 class="title">Результати після навчання</h2>
+          <ul class="list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/result/image-01-1x.png 1x,
+                    ./src/img/result/image-01-2x.png 2x
+                  "
+                  width="80"
+                  height="80" />
+                <img
+                  class="item-image"
+                  src="./src/img/result/image-01-1x.png"
+                  alt="memoji"
+                  width="80"
+                  height="80"
+              /></picture>
+              <p class="item-text">
+                Розкриття своїх справжніх бажань та потреб
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/result/image-02-1x.png 1x,
+                    ./src/img/result/image-02-2x.png 2x
+                  "
+                  width="80"
+                  height="80" />
+                <img
+                  class="item-image"
+                  src="./src/img/result/image-02-1x.png"
+                  alt="memoji"
+                  width="80"
+                  height="80"
+              /></picture>
+              <p class="item-text">
+                Тіло, розум і дух стали єдиним механізмом, що працюють для
+                досягнення ТВОЇХ великих цілей
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/result/image-03-1x.png 1x,
+                    ./src/img/result/image-03-2x.png 2x
+                  "
+                  width="80"
+                  height="80" />
+                <img
+                  class="item-image"
+                  src="./src/img/result/image-03-1x.png"
+                  alt="memoji"
+                  width="80"
+                  height="80"
+              /></picture>
+              <p class="item-text">
+                Усвідомлення себе творцем власної реальності, вибір її та
+                насолода від шляху до мети
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/result/image-04-1x.png 1x,
+                    ./src/img/result/image-04-2x.png 2x
+                  "
+                  width="80"
+                  height="80" />
+                <img
+                  class="item-image"
+                  src="./src/img/result/image-04-1x.png"
+                  alt="memoji"
+                  width="80"
+                  height="80"
+              /></picture>
+              <p class="item-text">
+                З'явився сенс прокидатись раніше та бажання творити
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/result/image-05-1x.png 1x,
+                    ./src/img/result/image-05-2x.png 2x
+                  "
+                  width="80"
+                  height="80" />
+                <img
+                  class="item-image"
+                  src="./src/img/result/image-05-1x.png"
+                  alt="memoji"
+                  width="80"
+                  height="80"
+              /></picture>
+              <p class="item-text">
+                Відчуття ясності, неначе позбувся від пелени на очах
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/result/image-06-1x.png 1x,
+                    ./src/img/result/image-06-2x.png 2x
+                  "
+                  width="80"
+                  height="80" />
+                <img
+                  class="item-image"
+                  src="./src/img/result/image-06-1x.png"
+                  alt="memoji"
+                  width="80"
+                  height="80"
+              /></picture>
+              <p class="item-text">
+                Чіткі матеріальні зміни та нові можливості
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/result/image-07-1x.png 1x,
+                    ./src/img/result/image-07-2x.png 2x
+                  "
+                  width="80"
+                  height="80" />
+                <img
+                  class="item-image"
+                  src="./src/img/result/image-07-1x.png"
+                  alt="memoji"
+                  width="80"
+                  height="80"
+              /></picture>
+              <p class="item-text">
+                Відчуття щастя у душі та відсутній хаос в голові
+              </p>
+            </li>
+          </ul>
+          <div class="price-container">
+            <p class="price">369грн &nbsp;&nbsp;<span>3690грн</span></p>
+            <div class="line-through"></div>
+          </div>
+          <a class="btn" href="">Приєднатись зі Знижкою -90%</a>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <div class="title-container">
+            <h2 class="title">відгуки</h2>
+          </div>
+          <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-01-1x.png 1x,
+                      ./src/img/reviews/review-01-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-01-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-02-1x.png 1x,
+                      ./src/img/reviews/review-02-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-02-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-03-1x.png 1x,
+                      ./src/img/reviews/review-03-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-03-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-04-1x.png 1x,
+                      ./src/img/reviews/review-04-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-04-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-05-1x.png 1x,
+                      ./src/img/reviews/review-05-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-05-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-06-1x.png 1x,
+                      ./src/img/reviews/review-06-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-06-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-07-1x.png 1x,
+                      ./src/img/reviews/review-07-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-07-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="questions">
+        <div class="container">
+          <img
+            class="ellipse questions-ellipse-1"
+            src="./src/img/bg/ellipse-purple.png"
+            alt="decor"
+          />
+          <img
+            class="ellipse questions-ellipse-2"
+            src="./src/img/bg/ellipse-purple.png"
+            alt="decor"
+          />
+          <h2 class="title">відповіді на запитання</h2>
+          <div class="questions-container">
+            <ul class="questions-list list">
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Чому я маю повірити саме Тобі?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Вірити треба не мені, а в те, що твій Всесвіт бажає усього
+                      найкращого для тебе. І якщо ти читаєш ці слова, то ти вже
+                      за 1 крок від втілення кращої версії свого життя - зроби
+                      його!
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Я намагаюсь щось змінити останні 3-5-10 років, то що може
+                    змінитись за 1 тиждень?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Все. Буквально все. Але масштабу віри в це, нажаль, зараз
+                      недостатньо. Але за 7 днів можно точно змінити уявлення та
+                      взаємовідносини зі Всесвітом. Можно почати вірити, навівши
+                      мозку  реальні факти зсуву реальності в вигідний бік без
+                      кокроломних зусиль. А ось це вже крок, аби змінилось
+                      дійсно Все.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    А якщо нічого не зміниться й система не працює?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Система працює - 100%. Й видимі реальні зміни будуть
+                      проявлятись майже відразу. Але уявіть дитину ,що з таким
+                      самим скепсисом ставиться до можливості “ просто” ходити.
+                      Ваша ж задача - значно простіша.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    А якщо мене немає часу / енергії / впевненості / знань?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      То цей мінікурс точно для Вас. Якщо я вам скажу, що
+                      інвестувавши 30 хв в день на прості вправи, через тиждень
+                      ви отримаєте 1 млн $, чи знайшовся б у вас час та енергія?
+                      Це звучить чітко й мотивація зрозуміла. На першому уроці
+                      ВИ  відкриєте свій стимул, що працюватиме не гірше. А
+                      результат буде навіть краще.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="footer"><div class="container"></div></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="fop-box">
+          <p class="name">фоп прізвище імʼя</p>
+          <p class="code">іпн 00000000</p>
+        </div>
+        <a class="mail-container" href="mailto:" rel="nofollow" target="_blank"
+          ><img
+            src="./src/img/footer-mail.svg"
+            width="15"
+            height="15"
+            alt="mail"
+          />пошта</a
+        >
+        <div class="deals-box">
+          <a href="" target="_blank" rel="nofollow" class="deals-link public"
+            >публічна оферта
+          </a>
+          <a
+            href=""
+            target="_blank"
+            rel="nofollow"
+            class="deals-link confidence"
+            >політика конфідеційності</a
+          >
+        </div>
+        <a
+          class="dising-creator"
+          href="https://www.instagram.com/lisabardadym"
+          target="_blank"
+          rel="nofollow"
+          ><img src="./src/img/insta.svg" alt="insta" height="25" width="25" />
+          <p>
+            розробка сайту <br />
+            <span>lisa bardadym</span>
+          </p></a
+        >
+      </div>
+    </footer>
+    <script src="./src/js/timer.js" type="module"></script>
+    <script src="./src/js/show-text.js" type="module"></script>
+    <script src="./src/js/program.js" type="module"></script>
+    <script src="./src/js/questions.js" type="module"></script>
+    <script src="./src/js/swiper.js" type="module"></script>
   </body>
 </html>

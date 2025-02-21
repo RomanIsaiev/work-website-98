@@ -39,3 +39,9 @@
   src: url(../fonts/FUTURAPT-HEAVY.TTF);
   font-weight: 900;
 }
+
+@font-face {
+  font-family: 'Druk Cyr';
+  src: url(../fonts/DrukCyr-Bold.ttf);
+  font-weight: 700;
+}
