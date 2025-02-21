@@ -16,8 +16,14 @@ body {
   background-color: #090909;
 }
 
-.section {
-  padding: 60px 0;
+section,
+footer {
+  background-image: url(../img/noise-bg-1x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  max-width: 430px;
+  margin: 0 auto;
 }
 
 .container {
@@ -49,7 +55,7 @@ body {
 .hero {
   padding: 28px 0 0;
 
-  background-image: url(../img/hero/bg-1x.jpg);
+  background-image: url(../img/noise-bg-1x.png), url(../img/hero/bg-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
