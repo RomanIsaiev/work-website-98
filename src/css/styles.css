@@ -30,20 +30,6 @@ footer {
   margin: 0 auto;
 }
 
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  section,
-  footer {
-    background-image: url(../img/noise-bg-1x.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    max-width: 430px;
-    margin: 0 auto;
-  }
-}
-
 .container {
   position: relative;
   margin: 0 auto;
@@ -85,7 +71,17 @@ footer {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../img/hero/bg-2x.jpg);
+    background-image: url(../img/noise-bg-1x.png), url(../img/hero/bg-2x.jpg);
+  }
+
+  section,
+  footer {
+    background-image: url(../img/noise-bg-1x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    max-width: 430px;
+    margin: 0 auto;
   }
 }
 
