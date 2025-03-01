@@ -12,6 +12,10 @@
 @import url(../css/utils/variables.css);
 @import url(../css/utils/common.css);
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #090909;
 }
